@@ -1,0 +1,72 @@
+@import url(https://fonts.google.com/?query=poppins);
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.container{
+    min-height: 100vh;
+    background: #FFFF;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+
+.container form{
+    background: #dfd2d2;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+    padding: 20px;
+    width: 600px;
+}
+
+.container form .inputBox{
+    margin-top: 20px;
+}
+
+.container form .inputBox span{
+    display: block;
+    color: #999;
+    padding-bottom: 5px;
+}
+
+.container form .inputBox input,
+.container form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0.3);
+    color: #444;
+
+}
+
+.container form .flexbox{
+    display: flex;
+    gap: 15px;
+}
+
+.container form .flexbox .inputBox{
+    flex: 1 1 150px;
+}
+
+.container form .Enviar-btn{
+    width: 100%;
+    background: linear-gradient(45deg, blueviolet, deeppink);
+    margin: 15px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: . 2s linear;
+}
+
+.container form .Enviar-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
