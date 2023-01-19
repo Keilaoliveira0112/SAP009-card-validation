@@ -1,32 +1,45 @@
-@import url(https://fonts.google.com/?query=poppins);
-
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+* {
     box-sizing: border-box;
-    text-transform: uppercase;
-}
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
 
-.container{
+  body {
+    width: 100%;
     min-height: 100vh;
-    background: #FFFF;
+    background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
     display: flex;
-    align-items: left;
-    justify-content: center;
-    flex-flow: column;
-    padding-bottom: 60px;
+    justify-content:space-around;
+    align-items:center;
+    font-size:20px;
+  }
+
+  .container {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .container form{
-    background: #dfd2d2;
+    background: #FFFFS;
     border-radius: 5px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
     padding: 20px;
-    width: 600px;
+    width: 400px;
 }
 
 .container form .inputBox{
-    margin-top: 20px;
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
 }
 
 .container form .inputBox span{
@@ -46,15 +59,17 @@
 }
 
 .container form .flexbox{
-    display: flex;
+    display: inline-flex;
+    margin-right: 30px
     gap: 15px;
 }
 
 .container form .flexbox .inputBox{
+    display: inline;
     flex: 1 1 150px;
-}
+}   
 
-.container form .Enviar-btn{
+.container form .Validar-btn{
     width: 100%;
     background: linear-gradient(45deg, blueviolet, deeppink);
     margin: 15px;
@@ -62,6 +77,7 @@
     font-size: 20px;
     color: #fff;
     border-radius: 10px;
+    text-align: center;
     cursor: pointer;
     transition: . 2s linear;
 }
@@ -70,3 +86,6 @@
     letter-spacing: 2px;
     opacity: .8;
 }
+
+
+      
