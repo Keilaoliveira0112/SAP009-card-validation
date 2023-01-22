@@ -1,5 +1,12 @@
-const validator = {
-  // ...
-};
+  
+  const validator = {
+    
+  }
+    
+    
+       
 
-export default validator;
+    
+  
+  
+  export default validator;
