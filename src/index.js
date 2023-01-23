@@ -1,64 +1,5 @@
 import validator from './validator.js';
 
-/*const submit = document.getElementById("enviaFormulario");
-
-submit: addEventListener("click", validarFormulario);
-
-function validarFormulario(){
-    var campoNome = document.getElementById('input[id="nomedotitular"]');
-    console.log(campoNome);
-
-    if (campoNome>3)
-    {
-        console.log('NOME DEVE TER MAIS QUE TRES CARACTERES');
-    }
-    else
-    {
-        console.log('VALIDADO O NOME')
-    }
-   
-    var campoNumeroDoCartao = document.getElementById('input[id="numerodocartao"]');
-    console.log(campoNumeroDoCartao);
-    
-    if (campoNumeroDoCartao=16)
-    {
-    console.log('VALIDADO O CARTAO');
-    }
-    else
-    {
-    console.log('CARTAO DEVE TER 16 NUMEROS')
-    }
-}*/
-
-
-
-
-
-
-
-
-/*
-const submit = document.getElementById("enviaFormulario");
-
-submit: addEventListener("click", validarFormulario);
-
-function validarFormulario(e) {
-    e.preventDefault();
-
-    const campoNome = document.getElementById("nomedotitular");
-    let valid = true;
-
-    if (!campoNome) {
-        const nameError = document.getElementById("nameError");
-        nameError.classList.add("visible");
-        campoNome.classList.add("invalid");
-        nameError.setAttribute("<0", false);
-        nameError.setAttribute(">0", true);
-    }
-    return valid;
-}
-
-*/
 window.validarFormulario = function () {
     console.log('teste');
     var resultadoValidacaoDoNome = validarCampoNome();
@@ -139,3 +80,8 @@ function validaNumeroDoCvv() {
     }
     return valid;
 }
+window.teste = function () {
+    validator.isvalid();
+    var arrayCard = campoNumeroDoCartao.split("")
+}
+
