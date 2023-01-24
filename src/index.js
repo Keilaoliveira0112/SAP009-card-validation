@@ -12,7 +12,12 @@ window.validarFormulario = function () {
     console.log('resultado' + resultadoValidacaoDoAno)
     var resultadoValidacaoDoNumeroDoCvv = validaNumeroDoCvv();
     console.log('resultado' + resultadoValidacaoDoNumeroDoCvv)
+    if (resultadoValidacaoDoNumeroDoCartao == true) {
+        const campoNumeroDoCartao = document.getElementById("numerodocartao");
 
+        const cardValidation = validator.isValid(campoNumeroDoCartao.value);
+        console.log('cardValidation ' + cardValidation);
+    }
 }
 
 function validarCampoNome() {
@@ -79,9 +84,5 @@ function validaNumeroDoCvv() {
         campoNumeroDoCvv.classList.add("invalid");
     }
     return valid;
-}
-window.teste = function () {
-    validator.isvalid();
-    var arrayCard = campoNumeroDoCartao.split("")
 }
 
