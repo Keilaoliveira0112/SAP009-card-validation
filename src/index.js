@@ -2,15 +2,15 @@ import validator from './validator.js';
 
 window.validarFormulario = function () {
     console.log('teste');
-    var resultadoValidacaoDoNome = validarCampoNome();
+    let resultadoValidacaoDoNome = validarCampoNome();
     console.log('resultado ' + resultadoValidacaoDoNome)
-    var resultadoValidacaoDoNumeroDoCartao = validaNumeroDoCartao();
+    let resultadoValidacaoDoNumeroDoCartao = validaNumeroDoCartao();
     console.log('resultado' + resultadoValidacaoDoNumeroDoCartao)
-    var resultadoValidacaoDoMes = validarMes();
+    let resultadoValidacaoDoMes = validarMes();
     console.log('resultado' + resultadoValidacaoDoMes)
-    var resultadoValidacaoDoAno = validarAno();
+    let resultadoValidacaoDoAno = validarAno();
     console.log('resultado' + resultadoValidacaoDoAno)
-    var resultadoValidacaoDoNumeroDoCvv = validaNumeroDoCvv();
+    let resultadoValidacaoDoNumeroDoCvv = validaNumeroDoCvv();
     console.log('resultado' + resultadoValidacaoDoNumeroDoCvv)
     if (resultadoValidacaoDoNumeroDoCartao == true) {
         const campoNumeroDoCartao = document.getElementById("numerodocartao");
