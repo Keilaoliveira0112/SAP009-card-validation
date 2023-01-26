@@ -30,7 +30,15 @@ const validator = {
 
 
 
+  },
+  maskify: function (creditCardNumber) {
+    const last4Digits = creditCardNumber.slice(-4);
+    console.log(last4Digits)
+    return last4Digits.padStart(creditCardNumber.length, '#');
+
+
   }
+
 
 
 
