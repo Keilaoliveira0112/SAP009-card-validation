@@ -15,25 +15,22 @@ window.validarFormulario = function () {
     let resultadoValidacaoDoNumeroDoCvv = validaNumeroDoCvv();
     console.log('resultado' + resultadoValidacaoDoNumeroDoCvv)
     if (resultadoValidacaoDoNumeroDoCartao == true) {
-        //const campoNumeroDoCartao = document.getElementById("numerodocartao");
 
         const cardValidation = validator.isValid(campoNumeroDoCartao.value);
         console.log('cardValidation ' + cardValidation);
 
     }
-    ocultarDoNumero(campoNumeroDoCartao.value);
+
 }
 
-function ocultarDoNumero(fullNumber) {
+window.ocultarDoNumero = function () {
 
-    const maskedNumber = validator.maskify(fullNumber);
+    const maskedNumber = validator.maskify(campoNumeroDoCartao.value);
 
     document.getElementById("numerodocartao").value = maskedNumber;
 
     console.log(maskedNumber)
 
-
-    //return (result.innerHTML = "Por favor, digite novamente. Número de cartão inválido!");
 
 }
 
