@@ -4,6 +4,7 @@ const campoNumeroDoCartao = document.getElementById("numerodocartao");
 
 window.validarFormulario = function () {
     console.log('teste');
+    let cardValidation = false
     const resultadoValidacaoDoNome = validarCampoNome();
     console.log('resultado ' + resultadoValidacaoDoNome)
     const resultadoValidacaoDoNumeroDoCartao = validaNumeroDoCartao();
@@ -16,10 +17,21 @@ window.validarFormulario = function () {
     console.log('resultado' + resultadoValidacaoDoNumeroDoCvv)
     if (resultadoValidacaoDoNumeroDoCartao === true) {
 
-        const cardValidation = validator.isValid(campoNumeroDoCartao.value);
+        cardValidation = validator.isValid(campoNumeroDoCartao.value);
         console.log('cardValidation ' + cardValidation);
 
     }
+    if (resultadoValidacaoDoNome === true & resultadoValidacaoDoNumeroDoCartao === true & resultadoValidacaoDoMes === true & resultadoValidacaoDoAno === true & resultadoValidacaoDoNumeroDoCvv === true & cardValidation === true) {
+        console.log("formulario totalmente válido")
+        const mensagemCartaoCadastrado = document.getElementById("cartaoCadastrado");
+        mensagemCartaoCadastrado.classList.remove("display-none");
+        const removerFormulario = document.getElementById("formulario");
+        removerFormulario.classList.add("display-none")
+
+    }
+
+
+
 
 }
 
