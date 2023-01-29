@@ -4,17 +4,17 @@ const campoNumeroDoCartao = document.getElementById("numerodocartao");
 
 window.validarFormulario = function () {
     console.log('teste');
-    let resultadoValidacaoDoNome = validarCampoNome();
+    const resultadoValidacaoDoNome = validarCampoNome();
     console.log('resultado ' + resultadoValidacaoDoNome)
-    let resultadoValidacaoDoNumeroDoCartao = validaNumeroDoCartao();
+    const resultadoValidacaoDoNumeroDoCartao = validaNumeroDoCartao();
     console.log('resultado' + resultadoValidacaoDoNumeroDoCartao)
-    let resultadoValidacaoDoMes = validarMes();
+    const resultadoValidacaoDoMes = validarMes();
     console.log('resultado' + resultadoValidacaoDoMes)
-    let resultadoValidacaoDoAno = validarAno();
+    const resultadoValidacaoDoAno = validarAno();
     console.log('resultado' + resultadoValidacaoDoAno)
-    let resultadoValidacaoDoNumeroDoCvv = validaNumeroDoCvv();
+    const resultadoValidacaoDoNumeroDoCvv = validaNumeroDoCvv();
     console.log('resultado' + resultadoValidacaoDoNumeroDoCvv)
-    if (resultadoValidacaoDoNumeroDoCartao == true) {
+    if (resultadoValidacaoDoNumeroDoCartao === true) {
 
         const cardValidation = validator.isValid(campoNumeroDoCartao.value);
         console.log('cardValidation ' + cardValidation);
@@ -39,7 +39,7 @@ function validarCampoNome() {
     campoNome.classList.remove("invalid");
     let valid = true;
     console.log('campoNome ' + campoNome.value)
-    if (campoNome.value.length == 0) {
+    if (campoNome.value.length === 0) {
         valid = false;
         campoNome.classList.add("invalid");
 
@@ -52,7 +52,7 @@ function validaNumeroDoCartao() {
     campoNumeroDoCartao.classList.remove("invalid");
     let valid = true;
     console.log('campoNumero' + campoNumeroDoCartao.value)
-    if (campoNumeroDoCartao.value.length != 16) {
+    if (campoNumeroDoCartao.value.length !== 16) {
         valid = false;
         campoNumeroDoCartao.classList.add("invalid");
 
@@ -66,7 +66,7 @@ function validarMes() {
     campoMes.classList.remove("invalid");
     let valid = true;
     console.log('campoMes' + campoMes.value)
-    if (campoMes.value == "mes") {
+    if (campoMes.value === "mes") {
         valid = false;
         campoMes.classList.add("invalid");
 
@@ -81,7 +81,7 @@ function validarAno() {
     campoAno.classList.remove("invalid");
     let valid = true;
     console.log('campoAno' + campoAno.value)
-    if (campoAno.value == "Ano") {
+    if (campoAno.value === "Ano") {
         valid = false;
         campoAno.classList.add("invalid");
     }
@@ -93,7 +93,7 @@ function validaNumeroDoCvv() {
     campoNumeroDoCvv.classList.remove("invalid");
     let valid = true;
     console.log('campoNumeroDoCvv' + campoNumeroDoCvv.value)
-    if (campoNumeroDoCvv.value.length != 3) {
+    if (campoNumeroDoCvv.value.length !== 3) {
         valid = false;
         campoNumeroDoCvv.classList.add("invalid");
     }
