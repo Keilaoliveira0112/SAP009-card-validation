@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Validação de cartão LABORATÓRIA</title>
+    <title>HOJE TEM CAKE - Validação de cartão</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -12,17 +12,17 @@
     <header>
         <h1>Olá, seja bem - vindos!</h1>
         <h2>Valide aqui seu cartão de crédito.</h2>
-        <p>Obrigado por fazer seu pedido na___________.</p>
+        <p>Obrigado por fazer seu pedido na HOJE TEM CAKE.</p>
 
-        <p>Para que seu pedido seu realizado com sucesso, preencha seus dados e de seu cartão para que ele seja
-            validado.
+        <p>Para que seu pedido seu realizado com sucesso, preencha seus dados e do seu cartão para que ele seja
+            cadastrado.
         </p>
     </header>
     <main>
 
         <div class="container">
             <div class="box-form">
-                <p class="display-none" id="cartaoCadastrado">Cartão cadastrado com sucesso!!</p>
+                <p class="display-none" id="cataoCadastrado">Cartão cadastrado com sucesso!!</p>
                 <form action="" id="formulario" onsubmit="return false">
                     <div>
 
@@ -82,8 +82,8 @@
                             oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
                     </div>
                     <div>
-                        <button submit="submit" id="enviaFormulario" class="validarBtn"
-                            onclick="validarFormulario()">Validar</button>
+                        <button submit="submit" id="enviaFormulario" class="validarBtn" onclick="validarFormulario() ">
+                            Validar </button>
                         <button class="validarBtn" onclick="ocultarDoNumero()"> Ocultar Valores</button>
                     </div>
                 </form>

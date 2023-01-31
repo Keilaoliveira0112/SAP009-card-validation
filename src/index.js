@@ -37,11 +37,11 @@ window.validarFormulario = function () {
 
 window.ocultarDoNumero = function () {
 
-    const maskedNumber = validator.maskify(campoNumeroDoCartao.value);
+    const mascararNumero = validator.maskify(campoNumeroDoCartao.value);
 
-    document.getElementById("numerodocartao").value = maskedNumber;
+    document.getElementById("numerodocartao").value = mascararNumero;
 
-    console.log(maskedNumber)
+    console.log(mascararNumero)
 
 
 }
