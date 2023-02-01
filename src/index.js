@@ -17,15 +17,15 @@ window.validarFormulario = function () {
     console.log('resultado' + resultadoValidacaoDoNumeroDoCvv)
     if (resultadoValidacaoDoNumeroDoCartao === true) {
 
+
         cardValidation = validator.isValid(campoNumeroDoCartao.value);
         console.log('cardValidation ' + cardValidation);
 
     }
-    else if (resultadoValidacaoDoNome === true & resultadoValidacaoDoNumeroDoCartao === true & resultadoValidacaoDoMes === true & resultadoValidacaoDoAno === true & resultadoValidacaoDoNumeroDoCvv === true & cardValidation === true) {
+    if (resultadoValidacaoDoNome === true & resultadoValidacaoDoNumeroDoCartao === true & resultadoValidacaoDoMes === true & resultadoValidacaoDoAno === true & resultadoValidacaoDoNumeroDoCvv === true & cardValidation === true) {
         console.log("formulario totalmente válido")
         const mensagemCartaoCadastrado = document.getElementById("cartaoCadastrado");
         mensagemCartaoCadastrado.classList.remove("display-none");
-        //alert("Cartão válidado com sucesso!");
         const removerFormulario = document.getElementById("formulario");
         removerFormulario.classList.add("display-none")
 
