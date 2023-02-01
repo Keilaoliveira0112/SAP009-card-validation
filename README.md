@@ -20,20 +20,20 @@ Caso falte o preenchimento de algum campo, os campos não preenchidos ficam verm
 
 3. Considerações gerais
 
-Quem são os principais usuários do produto?
+**Quem são os principais usuários do produto?**
 
-Resposta: São pessoas de que querem fazer algum determinado tipo de comprar por um site especifico e precisa da validação do seu cartão para aprovação da compra.
-
-
-Quais são os objetivos desses usuários em relação ao seu produto?
-
-Resposta: O objetivo do usuário é validar seu cartão de crédito para o comprar produtos para eventos especificos ou no dia-a-dia.
-Oferecer uma opção de pagamento no check-out da compra.
+São pessoas de que querem fazer algum determinado tipo de comprar por um site especifico e precisa da validação do seu cartão para aprovação da compra.
 
 
-Como você acha que o produto que você está criando está resolvendo seus problemas?
+**Quais são os objetivos desses usuários em relação ao seu produto?**
 
-Resposta: Facilitar a compra com a opção de cartão de crédito;
-Aumentar o fluxo de vendas da empresa;
+O objetivo do usuário é validar seu cartão de crédito para o comprar produtos para eventos especificos ou no dia-a-dia.
+
+
+
+**Como você acha que o produto que você está criando está resolvendo seus problemas?**
+
+Facilitar a compra com a opção de cartão de crédito e com a validação do cartão de crédito a experiência do usuário não será prejudicada na reta final da compra e assim irá diminuir a quantidade de desistências causadas por erros de digitação;
+Aumentar o fluxo de vendas da empresa.
 
 Com base nessas respostas partir do plano em criar uma página que fosse intuitiva para que o usuário soubesse aonde preencher os dados para validação e quais os dados a serem preeenchidos.

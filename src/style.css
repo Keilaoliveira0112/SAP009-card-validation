@@ -39,16 +39,6 @@ form {
     width: 100%;
 }
 
-#cartaoCadastrado {
-    vertical-align: middle;
-    margin: auto;
-}
-
-.display-none {
-    display: none;
-
-}
-
 .container form .inputBox {
     border: 2px solid #f0f0f0;
     display: block;

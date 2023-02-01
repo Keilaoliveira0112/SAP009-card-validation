@@ -21,7 +21,7 @@
 
         <div class="container">
             <div class="box-form">
-                <p class="display-none" id="cartaoCadastrado">Cartão cadastrado com sucesso!!</p>
+
                 <form action="" id="formulario" onsubmit="return false">
                     <div>
 
@@ -81,8 +81,10 @@
                             oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" />
                     </div>
                     <div>
+
                         <button submit="submit" id="enviaFormulario" class="validarBtn" onclick="validarFormulario() ">
                             Validar </button>
+                        <p id="mensagem"></p>
 
                     </div>
                 </form>
