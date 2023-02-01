@@ -28,21 +28,13 @@ window.validarFormulario = function () {
         mensagemCartaoCadastrado.classList.remove("display-none");
         const removerFormulario = document.getElementById("formulario");
         removerFormulario.classList.add("display-none")
+        const mascararNumero = validator.maskify(campoNumeroDoCartao.value);
+        document.getElementById("numerodocartao").value = mascararNumero;
+        console.log(mascararNumero)
 
     }
 
 
-
-
-}
-
-window.ocultarDoNumero = function () {
-
-    const mascararNumero = validator.maskify(campoNumeroDoCartao.value);
-
-    document.getElementById("numerodocartao").value = mascararNumero;
-
-    console.log(mascararNumero)
 
 
 }
