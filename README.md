@@ -70,7 +70,7 @@ Tambem destaco alguns pontos relevantes:
 
 ## 4. Layout
 
-![CardValidation] ([https://keilaoliveira0112.github.io/SAP009-card-validation/](https://github.com/Keilaoliveira0112/SAP009-card-validation/blob/main/imagens/paginainicial.png))
+![Página Inicial] (https://github.com/Keilaoliveira0112/SAP009-card-validation/blob/main/imagens/paginainicial.png)
 
 ***
 
