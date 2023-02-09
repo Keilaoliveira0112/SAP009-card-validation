@@ -29,11 +29,11 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 Card Validation foi a primeira aplicação web desenvolvida durante o bootcamp da Laboratória.
 
-Neste projeto, desenvolvi uma página de check-out de uma empresa. Onde o usuário através de um formulário faz o cadastro com algumas infomações pessoais e dados do seu cartão de crédito.
+Neste projeto, desenvolvi uma página de check-out de uma empresa. Onde o usuário através de um formulário faz o cadastro com algumas infomações pessoais e dados do seu cartão de crédito para validá-lo.
 
 Além disso, foi implementado a funcionalidade para ocultar todos os dígitos de um cartão, exceto os quatro últimos.
 
-Assim que o usuário preenche todas as informações, e essas são válidas uma mensagem de validação aparece confirmando que os dados foram válidados com sucesso.
+Assim que o usuário preenche todas as informações e essas são válidas, uma mensagem aparece confirmando que os dados foram válidados com sucesso.
 
 Caso falte o preenchimento de algum campo, os mesmo ficam vermelhos para que sejam preenchidos e assim feito a validação.
 
