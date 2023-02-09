@@ -1,24 +1,45 @@
+
 # Cartão de Crédito Válido
 
+## Índice
 
+* [1. Introdução](#1-Introdução)
+* [2. Resumo do projeto](#2-resumo-do-projeto)
+* [3. Considerações gerais](#3-considerações-gerais)
+* [4. Layout](#4-layout)
+* [5. Objetivos de Aprendizagem](#5-objetivos-de-aprendizagem)
+* [6. Implemetações futuras](#6-implementações-futuras)
 
-1. Introdução
+***
 
-O algoritmo de Luhn , também chamado de módulo 10, é um método de soma de verificação, usado para validar números de identificação, como o IMEI de telefones celulares, cartões de crédito etc.
+## 1. Introdução
+
+O [algoritmo de Luhn](https://en.wikipedia.org/wiki/Luhn_algorithm), também chamado de módulo 10, é um método de soma de verificação, usado para validar números de identificação, como o IMEI de telefones celulares, cartões de crédito etc.
 
 Esse algoritmo é simples. Obtemos o inverso do número a ser verificado (que contém apenas dígitos [0-9]); todos os números que ocupam uma posição par devem ser multiplicados por dois; se esse número for maior ou igual a 10, deve adicionar os dígitos do resultado; o número a verificar será válido se a soma de seus dígitos finais para um múltiplo de 10.
 
+![gráfico do algoritmo de
+Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
-2. Resumo do projeto
+***
 
-Neste projeto, desenvolvi uma página de check-out de uma empresa. Onde o usuário atraves de um formulário faz o cadastro com algumas infomações pessoais e dados do seu cartão de crédito.
-Além disso, você foi implementado a funcionalidade para ocultar todos os dígitos de um cartão, exceto os quatro últimos.
+## 2. Resumo do projeto
 
-Assim que o usuário preenche todas as informações, e essas são válidas uma tela com uma mensagem de validação aparece confirmando que os dados foram válidados com sucesso.
+[MEU GITHUB] (https://keilaoliveira0112.github.io/SAP009-card-validation/)
 
-Caso falte o preenchimento de algum campo, os campos não preenchidos ficam vermelhos para que sejam preenchidos e assim seja feito a validação.
+Card Validation foi a primeira aplicação web desenvolvida durante o bootcamp da Laboratória.
 
-3. Considerações gerais
+Neste projeto, desenvolvi uma página de check-out de uma empresa. Onde o usuário através de um formulário faz o cadastro com algumas infomações pessoais e dados do seu cartão de crédito.
+
+Além disso, foi implementado a funcionalidade para ocultar todos os dígitos de um cartão, exceto os quatro últimos.
+
+Assim que o usuário preenche todas as informações, e essas são válidas uma mensagem de validação aparece confirmando que os dados foram válidados com sucesso.
+
+Caso falte o preenchimento de algum campo, os mesmo ficam vermelhos para que sejam preenchidos e assim feito a validação.
+
+***
+
+## 3. Considerações gerais
 
 **Quem são os principais usuários do produto?**
 
@@ -37,3 +58,38 @@ Facilitar a compra com a opção de cartão de crédito e com a validação do c
 Aumentar o fluxo de vendas da empresa.
 
 Com base nessas respostas partir do plano em criar uma página que fosse intuitiva para que o usuário soubesse aonde preencher os dados para validação e quais os dados a serem preeenchidos.
+
+Tambem destaco alguns pontos relevantes:
+
+* Este projeto foi realizado individualmente durante o Bootcamp da Laboratória;
+* Foi desenvolvido com base em um boilerplate, estrutura básica de um projeto em diferentes pastas(através de módulos em JS);
+* Para que não haja problemas futuros, este projeto foi passado por testes unitários.
+
+***
+
+
+## 4. Layout
+
+![CardValidation] (https://keilaoliveira0112.github.io/SAP009-card-validation/)
+
+***
+
+## 5. Objetivos de Aprendizagem
+
+* HTML
+* CSS
+* JAVASCRIPT
+* GIT e GITHUB
+
+
+***
+
+## 6.  Implementações futuras
+
+* Melhorar o Layout da página;
+* Adicionar um cartão interativo para quando o usuário estiver preenchedo os dados, o cartão tambem seja preenchido;
+* Adicionar bandeira do cartão de crédito.
+
+
+
+
