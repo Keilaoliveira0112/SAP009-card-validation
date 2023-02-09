@@ -35,7 +35,7 @@ Além disso, foi implementado a funcionalidade para ocultar todos os dígitos de
 
 Assim que o usuário preenche todas as informações e essas são válidas, uma mensagem aparece confirmando que os dados foram válidados com sucesso.
 
-Caso falte o preenchimento de algum campo, os mesmo ficam vermelhos para que sejam preenchidos e assim feito a validação.
+Caso falte o preenchimento de algum campo, os mesmo ficam vermelho para que sejam preenchido CORRETAMENTE e assim feito a validação.
 
 ***
 
