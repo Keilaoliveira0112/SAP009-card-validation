@@ -25,7 +25,7 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
-[MEU GITHUB] (https://keilaoliveira0112.github.io/SAP009-card-validation/)
+[MEU GITHUB](https://keilaoliveira0112.github.io/SAP009-card-validation/)
 
 Card Validation foi a primeira aplicação web desenvolvida durante o bootcamp da Laboratória.
 
